@@ -1,0 +1,176 @@
+.wrapper {
+  width: 99vw;
+  margin: auto;
+  height: auto;
+  padding: 2px;
+}
+
+.header {
+  border-bottom: 1px solid;
+  width: 99%;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2px;
+}
+.header .title {
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 2px 0px 2px;
+}
+
+.header .links {
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 2px 0px 2px;
+}
+
+.header .links p {
+  margin: 0px 40px 0px 40px;
+  font-size: 20px;
+}
+
+.header .links p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header .profile {
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-items: center;
+
+  margin: 0px 2px 0px 2px;
+}
+
+.header .profile .image {
+  width: 20%;
+  height: 60%;
+  margin: 2px;
+  border-radius: 50%;
+}
+
+.header .profile .name {
+  width: 40%;
+  height: 60%;
+  margin: 2px 2px 2px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.header .profile .name p {
+  margin: 0px 0px 0px 2px;
+}
+
+.header .profile .name p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.header .profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.body {
+  width: 99%;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 2px;
+}
+
+.home-wrapper {
+  width: 99%;
+  height: 99%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+
+.home-wrapper .left {
+  border-right: 1px solid;
+  width: 18%;
+  height: 99%;
+  margin: 2px;
+}
+
+.left .side-links {
+  margin: 10px 0px 5px 0px;
+}
+
+.left .side-links:hover {
+  background-color: #f7f7f7;
+}
+
+.home-wrapper .right {
+  width: 80%;
+  height: 99%;
+  margin: 2px;
+}
+
+.right .search {
+  width: 99%;
+  margin: auto;
+  height: 85px;
+  display: flex;
+}
+
+.right .search .searchbar {
+  width: 70%;
+  height: auto;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .search .button {
+  width: 25%;
+  height: auto;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  width: 99%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ededed;
+}
+
+.footer .about {
+  width: 40%;
+  margin: 2px;
+  height: auto;
+  padding: 10px;
+}
+
+.footer .about p a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer .about p a:hover {
+  text-decoration: underline;
+}
+
+.footer .contact {
+  width: 40%;
+  margin: 2px;
+  height: auto;
+  padding: 10px;
+}
